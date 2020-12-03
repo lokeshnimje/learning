@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(145deg, #d79829, #b58022 );
+}
+
+.box{
+    text-align: center;
+}
+
+.hours,
+.minutes,
+.seconds,
+.half {
+    width: 10vw;
+    height: 10vw;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    box-shadow: 5px 5px 23px #7b5717, -5px -5px 23px #ffc535;
+    transition: all 0.5s ease-in;
+}
+
+.hours:hover,
+.minutes:hover,
+.seconds:hover,
+.half:hover{
+    transform: translateY(20px);
+    box-shadow: 5px 5px 23px #7b5717 inset, -5px -5px 23px #ffc535 inset;
+
+}
+
